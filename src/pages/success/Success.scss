@@ -1,0 +1,29 @@
+// success.scss
+
+// Định nghĩa kiểu cho thành phần Success
+.success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  
+    // Thêm kiểu nếu cần
+  }
+  
+  .success-message {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  
+    // Thêm kiểu nếu cần
+  }
+  
+  // Tùy chỉnh kiểu cho thông báo thành công
+  .success-message::before {
+    content: "\1F60D"; // Unicode cho biểu tượng cười
+    margin-right: 10px;
+  }
+  
+  // Thêm kiểu nếu cần
+  
